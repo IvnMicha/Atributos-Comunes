@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background: salmon;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.centro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/*Estilos para ids*/
+
+#cabeza {
+    background: red;
+    padding: 5px;
+}
+#caja {
+    background: gray;
+}
+
+/*Estilos para los elementos de nav*/
+
+.caja {
+    background: red;
+    padding: 5px;
+    margin-top: 10px;
+}
+.boton {
+    border: 2px gray solid;
+    background: gray;
+    color: white;
+    text-decoration: none;
+    padding: 2px;
+    border-radius: 5px;
+}
+.boton:hover {
+    border: 2px salmon solid;
+    background: salmon;
+    color: black;
+}
+
+/*Estilos para el section, article y aside*/
+
+.caja1 {
+    background: gray;
+    border: 2px black solid;
+}
+.imagen {
+    width: 100%;
+}
+.arriba {
+    padding-top: 10px;
+}
+
+
+.blanco {
+    padding: 10px;
+    margin: 5px;
+    background: rgb(165, 165, 165);
+    border-radius: 10px;
+}
+.formula {
+    border: 2px rgb(94, 9, 9) solid;
+    width: 80%;
+    border-radius: 15px;
+    margin-top: 10px;
+    padding: 5px;
+}
+.formula1 {
+    margin-top: 10px;
+    padding: 5px;
+}
+.sesion {
+    text-decoration: none;
+    color: brown;
+    padding: 5px;
+}
